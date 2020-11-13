@@ -28,9 +28,9 @@ namespace Calculs
                 Console.WriteLine("Addition ....................... 1");
                 Console.WriteLine("Multiplication ................. 2");
                 Console.WriteLine("Quitter ........................ 0");
+                Console.WriteLine("Quitter ........................ 0");
                 Console.Write("Choix :                          ");
                 check = Console.ReadLine();
-                // traitement des choix
 
                 if (check.All(char.IsDigit))
                 {
